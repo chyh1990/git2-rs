@@ -24,7 +24,7 @@ cmake = "0.1.2"
 gcc = "0.3"
 
 [target.'cfg(unix)'.dependencies]
-openssl-sys = { version = "0.9", optional = true }
+openssl-sys = { version = "0.7", optional = true }
 
 [features]
 ssh = ["libssh2-sys"]
